@@ -29,7 +29,7 @@ public class SeleniumTest {
         driver.get("http://google.com");
 
 //Our first assertion. Let's see if we are on the Google HomePage.
-        assertThat("Title is 'Google'.", driver.getTitle(), IsEqual.equalTo("Google"));
+        assertThat("Title is 'Google'.", driver.getTitle(), equalTo("Google"));
 
 //This line defines by what the WebDriver will need to search the Element, as we'll see below.
         By finder = By.name("q");
