@@ -42,6 +42,9 @@ public class SeleniumTest {
 
 //Now it's time for an assertion. This will assert if the title is what we expect it to be. (It will fail ;))
         //assertThat("Title is as expected.", driver.getTitle(), containsString("First test. - Google"));
+        
+//Test is finished. Let's close the browser.
+        driver.close();
     }
 
 
